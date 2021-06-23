@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Int Text Example</title>
+    <script defer src="int-text.js"></script>
+	<style>
+		body {
+			background: black;
+		}
+	</style>
+</head>
+<body>
+    <noscript>Please enable JavaScript in order to use this [insert what are you doing]</noscript>
+	<!--
+		There are two ways of enabling the library: one is with
+		
+		<canvas id="interactive-text"></canvas>
+		and the other is
+		<int-text width="[insert width]" height="[insert height]"></int-text>
+		
+		Like below:
+	-->
+	<canvas id="interactive-text"></canvas>
+	<!--or below:-->
+	<int-text width="320" height="320"></int-text>
+	<!--
+		The library will pick the first that it sees. Only one available for now, working on that! :D
+	
+		There are some special paramters to add to the canvas or int-text:
+		
+		text: The text make the interactive text
+		font-size: The size of the text (minimum of 8 to add constellation effect (don't need particles.js))
+		color: Color of the text
+		color-h: Color of the text with highlight
+		
+		Remember to always customize it!
+	-->
+</body>
+</html>
